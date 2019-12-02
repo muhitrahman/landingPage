@@ -1,0 +1,126 @@
+
+
+
+body{
+    background: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74be18f074e19e06a51221f0f09969df&auto=format&fit=crop&w=1052&q=80%201052w);
+/*    background: url(../images/pic1.jpg);*/
+    background-size: cover;
+    background-position: center;
+    font-family: 'Catamaran', sans-serif;
+}
+html{
+    height: 100%;
+}
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    color: #ff6633;
+}
+/*
+.navbar-default{
+   background-color: red;
+}
+*/
+.center{
+    text-align: center;
+    padding-top: 50px;
+}
+/*
+h1{
+    color: maroon;
+    //////color: greenyellow
+    font-size: 3em;
+}
+*/
+h1, p{
+    color: maroon;
+}
+/*
+h2 > span{
+    color: maroon;
+    font-size: 1em;
+}
+*/
+h2>span{
+    color: maroon;
+}
+/*
+p{
+    color: maroon;
+    font-size: 1.1em;
+}
+*/
+.black{
+    color: black;
+}
+#login{
+    width: 250px;
+    background-color: whitesmoke;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    border-radius: 20px;
+    opacity: 0.9
+}
+/*
+#login .social-buttons{
+    margin: 12px 0;
+}
+*/
+/*
+.dropdown-menu{
+    width: 250px;
+    background-color: whitesmoke;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    opacity: 0.9
+}
+*/
+#login .social-buttons{
+    margin: 12px 0;
+/*    padding: 0 15px;*/
+    
+}
+.btn-fb{
+    color: #fff;
+    background-color: #3b599d;
+    padding: 0 5px;
+}
+.btn-tw{
+    color: #fff;
+    background-color: #55acee;
+    padding: 0 5px;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color: #496ebc;
+    text-decoration: none;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color: #55acee;
+    text-decoration: none;
+}
+.fa-facebook{
+    padding: 0 10px;
+}
+.fa-twitter{
+ padding: 0 10px   
+}
+
+@media (max-width: 768px){
+    h1{
+        background-color: #449d;
+    }
+    h2{
+        background-color: #449d;    
+    }
+    p{
+        background-color: #449d;
+    }
+}
+@media(min-width: 768px){
+    h1{
+        background-color: aqua;
+    }
+}
